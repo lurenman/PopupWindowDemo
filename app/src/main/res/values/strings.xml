@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PopupWindowDemo</string>
+    <!-- 通告广场 -->
+    <string name="tggc_title">通告广场</string>
+    <string name="tggc_qgdq">全国地区</string>
+    <string name="tggc_tglx">通告类型</string>
+    <string name="tggc_xzjs">薪资结算</string>
+    <string name="tggc_mrpx">默认排序</string>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:text="通告广场popupWindow展示"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dip"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/ll_qgdq"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_qgdq"
+                style="@style/typeface_style_13_666666"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/icon_drop_down_off"
+                android:gravity="center_vertical"
+                android:text="@string/tggc_qgdq" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#dddddd" />
+
+        <LinearLayout
+            android:id="@+id/ll_tglx"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_tglx"
+                style="@style/typeface_style_13_666666"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/icon_drop_down_off"
+                android:gravity="center_vertical"
+                android:text="@string/tggc_tglx" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#dddddd" />
+
+        <LinearLayout
+            android:id="@+id/ll_xzjs"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_xzjs"
+                style="@style/typeface_style_13_666666"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/icon_drop_down_off"
+                android:gravity="center_vertical"
+                android:text="@string/tggc_xzjs" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:background="#dddddd" />
+
+        <LinearLayout
+            android:id="@+id/ll_mrpx"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/tv_mrpx"
+                style="@style/typeface_style_13_666666"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/icon_drop_down_off"
+                android:gravity="center_vertical"
+                android:tag="false"
+                android:text="@string/tggc_mrpx" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
